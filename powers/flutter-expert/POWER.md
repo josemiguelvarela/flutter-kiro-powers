@@ -1,21 +1,9 @@
 ---
-name: "Flutter Expert"
+name: "flutter-expert"
+displayName: "Flutter Expert"
 description: "Senior Flutter developer building high-performance cross-platform apps with BLoC/Cubit, easy_localization, GoRouter, and best practices"
-keywords:
-  - flutter
-  - dart
-  - mobile
-  - ios
-  - android
-  - widget
-  - bloc
-  - cubit
-  - state
-  - navigation
-  - routing
-  - test
-  - localization
-  - i18n
+keywords: ["flutter", "dart", "mobile", "ios", "android", "widget", "bloc", "cubit", "state", "navigation", "routing", "test", "localization", "i18n"]
+author: "josemiguelvarela"
 ---
 
 # Flutter Expert Power
