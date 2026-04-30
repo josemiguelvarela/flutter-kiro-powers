@@ -1,6 +1,6 @@
 ---
 description: Guía de flujo de trabajo coordinado entre los 5 agentes expertos — spec-analyst, impl-coder, quality-guardian, security-sentinel y change-summarizer. SIEMPRE activa el power flutter-expert al inicio. Aplicar este flujo en tareas de implementación, refactoring o desarrollo de features. NO aplicar para preguntas simples, consultas sobre código, búsquedas web o conversaciones informales.
-inclusion: auto
+inclusion: always
 ---
 
 # Flujo de Trabajo con Agentes
