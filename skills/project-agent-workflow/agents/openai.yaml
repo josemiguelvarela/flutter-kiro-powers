@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Agent Workflow"
+  short_description: "Codex workflow for converted Kiro agents and hooks"
+  default_prompt: "Use the project agent workflow to coordinate spec validation, implementation, quality review, security review, and summaries."

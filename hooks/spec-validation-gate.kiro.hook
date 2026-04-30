@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Spec Validation Before Implementation",
+  "description": "Antes de comenzar la implementación de una tarea, valida que los requisitos están completos, sin ambigüedades, y son implementables. Identifica gaps y dependencias.",
+  "version": "1",
+  "when": {
+    "type": "preTaskExecution"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "SPEC VALIDATION: Before starting this task, quickly review the associated requirement to ensure it is complete, unambiguous, and implementable. Check for: 1) Clear acceptance criteria, 2) No contradictions with other requirements, 3) All dependencies identified, 4) Edge cases considered, 5) Testable criteria. If any critical gaps are found, flag them before proceeding with implementation. Look for the relevant spec or requirements document in .kiro/specs/."
+  }
+}

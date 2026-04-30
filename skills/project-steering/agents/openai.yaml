@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Steering"
+  short_description: "Generic project rules converted from Kiro steering for Codex"
+  default_prompt: "Use the project steering rules before writing, reviewing, or refactoring project code."

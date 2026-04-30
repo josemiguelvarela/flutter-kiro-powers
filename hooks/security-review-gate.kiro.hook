@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Security Review Gate",
+  "description": "Antes de completar cualquier tarea de spec, el Security Sentinel realiza una auditoría de seguridad exhaustiva del código implementado. Este paso es obligatorio y no puede ser omitido.",
+  "version": "1",
+  "when": {
+    "type": "postTaskExecution"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "MANDATORY SECURITY REVIEW: Before this task can be considered complete, invoke the @security-sentinel agent to perform an exhaustive security audit of ALL code changes made during this task. The security review must cover: input validation, authentication, authorization, cryptography, error handling, logging, configuration, dependencies, and race conditions. If any CRITICAL or HIGH severity vulnerabilities are found, they MUST be fixed before proceeding. Do NOT skip this step."
+  }
+}
